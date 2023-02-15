@@ -1,0 +1,62 @@
+* {
+    font-family: 'Allerta Stencil';
+
+}
+
+#topbar {
+    background-color: lightblue;
+    padding: 5px;
+
+
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: ;
+    flex-wrap: wrap;
+}
+
+.project {
+display: flex;
+flex: 0 0 400px;
+flex-direction: ;
+margin: 30px;
+border-style: solid;
+border-color: red;
+background-color: aqua;
+min-width: 400px;
+max-width: 400px;
+min-height: 400px;
+max-height: 400px;
+
+
+}
+
+.bottomleft {
+    position: relative;
+    right: 390px;
+    top: 320px;
+    background-color: red;
+    max-height: 80px;
+    min-width: 100px;
+    text-align: center;
+
+
+}
+#minecraft {
+    position: relative;
+    right: 400px;
+    top: 320px;
+    background-color: red;
+    max-height: 80px;
+    min-width: 400px;
+    text-align: center;
+}
+
+.project:hover
+{
+
+    box-shadow: 10px 10px 10px 10px blue;
+
+
+}
