@@ -9,6 +9,16 @@
 
 
 }
+
+.sidebar {
+
+ display: flex;
+ border-style: solid;
+ max-width: 400px;
+ margin: 30px;
+
+}
+
 section {
     display: flex;
     justify-content: center;
@@ -31,6 +41,21 @@ max-height: 400px;
 
 
 }
+#mainproject {
+    display: flex;
+    flex: 0 0 800px;
+    flex-direction: ;
+    margin: 30px;
+    border-style: solid;
+    border-color: red;
+    background-color: aqua;
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 800px;
+    max-height: 800px;
+    
+    
+    }
 
 .bottomleft {
     position: relative;
@@ -45,18 +70,48 @@ max-height: 400px;
 }
 #minecraft {
     position: relative;
-    right: 400px;
-    top: 320px;
+    right: 800px;
+    top: 720px;
     background-color: red;
     max-height: 80px;
-    min-width: 400px;
+    min-width: 800px;
     text-align: center;
 }
 
-.project:hover
+.project:hover, #mainproject:hover
 {
 
     box-shadow: 10px 10px 10px 10px blue;
 
 
 }
+
+footer {
+    width: 100%;
+    max-height: px;
+    position: fixed;
+    bottom: 0px;
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+    
+}
+footer img {
+
+    max-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+
+}
+
+@media screen and (min-width: 1000px) {
+    .sidebar {
+
+        float: left;
+    
+    
+    
+    }
+    
+ }
