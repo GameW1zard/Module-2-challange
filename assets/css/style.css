@@ -3,8 +3,15 @@
 }
 nav {
 
-display: block;
-
+    max-height: px;
+    right: 7px;
+    left: 7px;
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    right: 7px;
+    left: 0px;
 }
 html {
 
@@ -14,13 +21,20 @@ html {
 }
 nav div {
     
-    background-color: lightblue;
+
     padding: 5px;
 
 
 
 
 }
+
+#hat {
+
+    margin-top: 30px;
+
+}
+
 #about { 
     display: flex;
     flex-direction: column;
@@ -28,6 +42,7 @@ nav div {
 }
 
 #about section {
+    flex-direction: column;
     border-style: solid;
     background-color: black;
     color: red;
@@ -37,6 +52,7 @@ nav div {
     min-width: 800px;
 
 }
+
 
 section {
     display: flex;
@@ -118,10 +134,14 @@ footer {
     background-color: lightblue;
     padding: 5px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+footer h3 {margin: 0 5px 0 0;}
 footer img {
-
+    margin: 0 5px 0 5px;
     max-width: 40px;
     max-height: 40px;
     min-height: 40px;
@@ -140,59 +160,71 @@ footer img {
 
         #mainproject {
             display: flex;
-            flex: 0 0 400px;
+            flex: 0 0 300px;
             flex-direction: ;
             margin: 30px;
             border-style: solid;
             border-color: red;
             background-color: aqua;
-            min-width: 400px;
-            max-width: 400px;
-            min-height: 400px;
-            max-height: 400px;
+            min-width: 300px;
+            max-width: 300px;
+            min-height: 300px;
+            max-height: 300px;
      }
 
      #mainproject img {
-        max-width: 400px;}
+        max-width: 300px;}
         #about section {
-            max-width: 400px;
-    min-width: 400px;
+            max-width: 300px;
+    min-width: 300px;
 
 
 
         }
     #minecraft {
         position: relative;
-    right: 400px;
-    top: 320px;
+    right: 300px;
+    top: 220px;
     background-color: red;
     max-height: 80px;
-    min-width: 400px;
+    min-width: 300px;
     text-align: center;
 
 
     }
 
- }
- @media screen and (max-width: 430px) {
+    #hat {
 
+        max-width: 300px;
+        max-height: 300px;
 
+    }
+    .project {
+        display: flex;
+        flex: 0 0 300px;
+        flex-direction: ;
+        margin: 30px;
+        border-style: solid;
+        border-color: red;
+        background-color: aqua;
+        min-width: 300px;
+        max-width: 300px;
+        min-height: 300px;
+        max-height: 300px;
+}
+.project img { max-width: 300px;}
 
-#mainproject {
-
-    min-width: auto;
-    max-width: auto;
-    min-height: auto;
-    max-height: auto;
+.bottomleft {
+    position: relative;
+right: 300px;
+top: 220px;
+background-color: red;
+max-height: 80px;
+min-width: 300px;
+text-align: center;
 }
 
-#mainproject img {
 
-    min-width: auto;
-    max-width: auto;
-    min-height: auto;
-    max-height: auto;
-}
 
 
  }
