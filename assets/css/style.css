@@ -7,23 +7,11 @@
     background-color: lightblue;
     padding: 5px;
 
-
 }
-#sidecontainer {
-display: flex;
-justify-content: left;    
 
+#about {
+    
 
-}
-.sidebar {
- display: flex;
- flex-direction: column;
- text-align: center;
- color: red;
- background-color: black;
- border-style: solid;
- 
- margin: 30px;
 
 }
 
@@ -130,7 +118,7 @@ footer img {
         justify-self: center;
          }
 
-         #mainproject {
+        #mainproject {
             display: flex;
             flex: 0 0 400px;
             flex-direction: ;
