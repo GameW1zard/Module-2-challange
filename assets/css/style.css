@@ -9,12 +9,20 @@
 
 
 }
+#sidecontainer {
+display: flex;
+justify-content: left;    
 
+
+}
 .sidebar {
-
  display: flex;
+ flex-direction: column;
+ text-align: center;
+ color: red;
+ background-color: black;
  border-style: solid;
- max-width: 400px;
+ 
  margin: 30px;
 
 }
@@ -105,13 +113,35 @@ footer img {
 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1230px) {
     .sidebar {
 
         float: left;
+        max-width: 400px;
+     }
+
     
-    
-    
-    }
-    
+ }
+
+ @media screen and (max-width: 1229px) {
+    .sidebar {
+
+        max-width: 800px;
+        justify-self: center;
+         }
+
+         #mainproject {
+            display: flex;
+            flex: 0 0 400px;
+            flex-direction: ;
+            margin: 30px;
+            border-style: solid;
+            border-color: red;
+            background-color: aqua;
+            min-width: 400px;
+            max-width: 400px;
+            min-height: 400px;
+            max-height: 400px;
+     }
+
  }
