@@ -2,12 +2,22 @@
     font-family: 'Allerta Stencil';
 }
 nav {
-    
-display: flexbox;}
+
+display: block;
+
+}
+html {
+
+
+
+
+}
 nav div {
     
     background-color: lightblue;
     padding: 5px;
+
+
 
 
 }
@@ -67,11 +77,11 @@ max-height: 400px;
 
 .bottomleft {
     position: relative;
-    right: 390px;
+    right: 400px;
     top: 320px;
     background-color: red;
     max-height: 80px;
-    min-width: 100px;
+    min-width: 400px;
     text-align: center;
 
 
@@ -99,10 +109,12 @@ margin: 50px;
 
 }
 footer {
-    width: 100%;
+   
     max-height: px;
     position: fixed;
     bottom: 0px;
+    right: 7px;
+    left: 7px;
     background-color: lightblue;
     padding: 5px;
     text-align: center;
@@ -118,21 +130,13 @@ footer img {
 }
 
 @media screen and (min-width: 1230px) {
-    .sidebar {
 
-        float: left;
-        max-width: 400px;
-     }
 
     
  }
 
  @media screen and (max-width: 834px) {
-    .sidebar {
 
-        max-width: 800px;
-        justify-self: center;
-         }
 
         #mainproject {
             display: flex;
@@ -168,5 +172,27 @@ footer img {
 
 
     }
+
+ }
+ @media screen and (max-width: 430px) {
+
+
+
+#mainproject {
+
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
+#mainproject img {
+
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+}
+
 
  }
