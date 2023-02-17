@@ -1,5 +1,5 @@
-# <Your-Project-Title>
-Riven's Portfolio Page
+# Riven's Portfolio Page
+
 ## Description
 
 This is my portfolio for future Employers! This shows off my skills with CSS JavaScript and HTML.
