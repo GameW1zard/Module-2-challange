@@ -78,7 +78,6 @@ max-height: 400px;
 #mainproject {
     display: flex;
     flex: 0 0 800px;
-    flex-direction: ;
     margin: 30px;
     border-style: solid;
     border-color: red;
